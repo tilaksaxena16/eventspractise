@@ -6,6 +6,7 @@ import { Eventdemo } from "./Components/Eventdemo";
 import { Emical } from "./Components/Emical";
 import { Regdemo } from "./Components/Regdemo";
 import { TimerEvent } from "./Components/TimerEvent";
+import { Timerdemo } from "./Components/Timerdemo";
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route exact path="/emi" element={<Emical />} />
           <Route exact path="/reg" element={<Regdemo />} />
           <Route exact path="/timer" element={<TimerEvent />} />
+          <Route exact path="/timerdemo" element={<Timerdemo />} />
         </Routes>
       </BrowserRouter>
     </>
