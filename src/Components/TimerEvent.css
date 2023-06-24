@@ -1,0 +1,9 @@
+.slide {
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+}
+  
+.active {
+    z-index: 1;
+}
+  
