@@ -9,6 +9,7 @@ import { TimerEvent } from "./Components/TimerEvent";
 import { Timerdemo } from "./Components/Timerdemo";
 import { Classcomp } from "./Class-components/Classcomp";
 import { Classexample } from "./Class-components/Classexample";
+import { Formikdemo } from "./Formik-demo/Formikdemo";
 
 
 const App = () => {
@@ -25,6 +26,8 @@ const App = () => {
           <Route exact path="/timerdemo" element={<Timerdemo />} />
           <Route exact path="/class" element={<Classcomp />} />
           <Route exact path="/class1" element={<Classexample />} />
+          <Route exact path="/form" element={<Formikdemo />} />
+
 
         </Routes>
       </BrowserRouter>

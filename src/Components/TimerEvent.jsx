@@ -58,7 +58,7 @@ const TimerEvent = () => {
                     {
                         products.map((product)=>
                             <div key={product.id}>
-                                <img src={product.image} alt="images" width={"1050px"} height={"480px"} /> 
+                                <img src={product.image} alt="images" width={"1050px"} height={"480px"} style={{overflow:"visible"}} /> 
                             </div>
                         )
                     }
