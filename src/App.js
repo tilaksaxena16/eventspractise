@@ -11,6 +11,8 @@ import { Classcomp } from "./Class-components/Classcomp";
 import { Classexample } from "./Class-components/Classexample";
 import { Formikdemo } from "./Formik-demo/Formikdemo";
 import { Formikform } from "./Formik-demo/Formikform";
+import { Formikvalidation } from "./Formik-demo/Formikvalidation";
+import { Formikproj } from "./Formik-demo/Formik";
 
 
 const App = () => {
@@ -29,8 +31,8 @@ const App = () => {
           <Route exact path="/class1" element={<Classexample />} />
           <Route exact path="/form" element={<Formikdemo />} />
           <Route exact path="/formyup" element={<Formikform />} />
-
-
+          <Route exact path="/formvalid" element={<Formikvalidation />} />
+          <Route exact path="/formik" element={<Formikproj />} />
         </Routes>
       </BrowserRouter>
     </>
